@@ -1,2 +1,5 @@
 homepage: "https://github.com/hungrydk/TikTok-Google-Tag-Manager-Server-Tag"
 documentation: "https://github.com/hungrydk/TikTok-Google-Tag-Manager-Server-Tag"
+versions:
+  - sha: 5a143ad18e07f1c02d63b878eeef3ae49cea350f
+    changeNotes: Conversion tracking support for TikTok Events API
