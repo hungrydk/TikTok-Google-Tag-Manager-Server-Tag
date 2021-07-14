@@ -92,7 +92,7 @@ const endpoint = [API_ENDPOINT, API_VERSION, EVENT_API_MAPPINGS[eventModel.event
 // HTTP Request sent to TikTok to trigger a conversion
 sendHttpRequest(endpoint, (statusCode, headers, body) => {
   setResponseBody(body);
-  setResponseHeader(headers);
+  setResponseHeader(makeString(headers));
   setResponseStatus(statusCode);
   if (statusCode >= 200 && statusCode <= 300) {
     data.gtmOnSuccess();
@@ -200,6 +200,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 12/07/2021, 14:45:24
+Created on 14/07/2021, 11:24:37
 
 
